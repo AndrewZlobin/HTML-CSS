@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+    <head>
+        <title>RegistrationForm</title>
+        <link
+                rel="shortcut icon"
+                type="image/x-icon"
+                href="favicon_reg.ico">
+        <meta charset="UTF-8">
+        <meta name="description" content="Форма для регистрации">
+    </head>
+    <body>
+        <ul>
+            <li><a href="index.html">Логотипы мобильных платежных систем</a></li>
+            <li><a href="secondpage.html">Краткое описание мобильных платежных систем</a></li>
+            <li><a href="thirdpage.html">Рубрика "О мобильных платежных системах"</a></li>
+            <li><a href="registration.html">Страница регистрации</a></li>
+            <li><a href="authorization.html">Страница авторизации</a></li>
+            <li><a href="form.html">Форма для оплаты парковки</a></li>
+        </ul>
+
+        <h1 align="center">Форма для регистрации на сайте</h1>
+        <br>
+        <form action="PHPServer"
+              method="post"
+              enctype="multipart/form-data">
+            <fieldset>
+                <legend align="center"><strong>Для получения доступа, пожалуста, зарегистрируйтесь:</strong></legend>
+                <div>
+                    <label for="reg_login">Придумайте логин:</label>
+                    <br>
+                    <input id="reg_login"
+                           type="text"
+                           placeholder="латинские буквы и цифры, от 2 до 20 символов"
+                           minlength="2"
+                           maxlength="20"
+                           size="50"
+                           required>
+                </div>
+                <br>
+                <div>
+                    <label for="reg_mail">Ваш почтовый ящик:</label>
+                    <br>
+                    <input id="reg_mail"
+                           type="email"
+                           placeholder="введите сюда адрес своей электронной почты"
+                           size="50"
+                           required>
+                </div>
+                <br>
+                <div>
+                    <label for="reg_pwd">Придумайте пароль:</label>
+                    <br>
+                    <input id="reg_pwd"
+                           type="password"
+                           placeholder="введите сюда пароль"
+                           minlength="2"
+                           maxlength="15"
+                           size="50"
+                           required>
+                </div>
+                <br>
+                <div>
+                    <label for="reg_pwd_again">Повторите пароль:</label>
+                    <br>
+                    <input id="reg_pwd_again"
+                           type="password"
+                           placeholder="повторите пароль"
+                           minlength="2"
+                           maxlength="15"
+                           size="50"
+                           required>
+                </div>
+                <br>
+                <div>
+                    <label for="reg_reset"><strong>Нажмите, чтобы сбросить, если введенные данные неверны:</strong></label>
+                    <br>
+                    <input id="reg_reset"
+                           type="reset">
+                </div>
+                <br>
+                <div>
+                <label for="reg_submit"><strong>Регистрация и получение доступа на сайт:</strong></label>
+                <br>
+                <input id="reg_submit"
+                       type="submit">
+                </div>
+                <br>
+                <div>
+                    <legend><em>Вы можете загрузить 1 изображение в качестве своего аватара:</em></legend>
+                    <input type="file" accept="image/*">
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
