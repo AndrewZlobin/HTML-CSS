@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/HTML-homework.iml" filepath="$PROJECT_DIR$/.idea/HTML-homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lessons/.idea/Lessons.iml" filepath="$PROJECT_DIR$/../Lessons/.idea/Lessons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ifmo-web-developer/.idea/ifmo-web-developer.iml" filepath="$PROJECT_DIR$/../ifmo-web-developer/.idea/ifmo-web-developer.iml" />
     </modules>
   </component>
 </project>
