@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="065c7bad-715e-47b2-b1f8-006d62d3e0d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diplom-homework/authorization.html" beforeDir="false" afterPath="$PROJECT_DIR$/diplom-homework/authorization.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diplom-homework/dealers.html" beforeDir="false" afterPath="$PROJECT_DIR$/diplom-homework/dealers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diplom-homework/favicon_auth.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diplom-homework/favicon_form.ico" beforeDir="false" afterPath="$PROJECT_DIR$/diplom-homework/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diplom-homework/favicon_info.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diplom-homework/favicon_main.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diplom-homework/favicon_objects.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diplom-homework/favicon_reg.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diplom-homework/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/diplom-homework/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diplom-homework/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/diplom-homework/info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/diplom-homework/mainpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/diplom-homework/mainpage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/diplom-homework/objects.html" beforeDir="false" afterPath="$PROJECT_DIR$/diplom-homework/objects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diplom-homework/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/diplom-homework/registration.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/diplom-homework/registration.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -37,17 +25,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/diplom-homework/mainpage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="255">
+              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/diplom-homework/objects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="272">
+              <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -117,12 +105,12 @@
         <option value="$PROJECT_DIR$/diplom-homework/form.html" />
         <option value="$PROJECT_DIR$/diplom-homework/styles/style-main.css" />
         <option value="$PROJECT_DIR$/diplom-homework/styles/style-dealer.css" />
-        <option value="$PROJECT_DIR$/diplom-homework/objects.html" />
-        <option value="$PROJECT_DIR$/diplom-homework/mainpage.html" />
         <option value="$PROJECT_DIR$/diplom-homework/info.html" />
         <option value="$PROJECT_DIR$/diplom-homework/dealers.html" />
         <option value="$PROJECT_DIR$/diplom-homework/authorization.html" />
         <option value="$PROJECT_DIR$/diplom-homework/registration.html" />
+        <option value="$PROJECT_DIR$/diplom-homework/mainpage.html" />
+        <option value="$PROJECT_DIR$/diplom-homework/objects.html" />
       </list>
     </option>
   </component>
@@ -199,7 +187,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552499426839</updated>
-      <workItem from="1552499439118" duration="11843000" />
+      <workItem from="1552499439118" duration="12577000" />
     </task>
     <task id="LOCAL-00001" summary="Now there are 2 folder: &quot;backup&quot; and &quot;homework (or diplom)&quot;">
       <created>1552499547400</created>
@@ -236,14 +224,22 @@
       <option name="project" value="LOCAL" />
       <updated>1552576971416</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="made one favicon to all pages">
+      <created>1552577384916</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1552577384916</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11843000" />
+    <option name="totallyTimeSpent" value="12577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
@@ -275,7 +271,8 @@
     <MESSAGE value="Homework is done!" />
     <MESSAGE value="Deleted all &lt;br&gt; I found + changed the mainpage.html for graduation project" />
     <MESSAGE value="changed &lt;legend&gt;&lt;em&gt; to &lt;label&gt;&lt;em&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed &lt;legend&gt;&lt;em&gt; to &lt;label&gt;&lt;em&gt;" />
+    <MESSAGE value="made one favicon to all pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="made one favicon to all pages" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/homework(diplom)/style-main.css">
@@ -345,24 +342,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diplom-homework/objects.html">
+    <entry file="file://$PROJECT_DIR$/diplom-homework/registration.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/diplom-homework/mainpage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="255">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diplom-homework/registration.html">
+    <entry file="file://$PROJECT_DIR$/diplom-homework/objects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="272">
+          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
         </state>
       </provider>
     </entry>
