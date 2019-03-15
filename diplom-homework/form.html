@@ -12,23 +12,24 @@
         <meta name="description" content="Форма для оплаты парковки">
     </head>
     <body>
-    <ul class="menu">
-        <li><a href="mainpage.html">Главная</a></li>
-        <li><a href="objects.html">Объекты</a></li>
-        <li><a href="info.html">Информация</a></li>
-        <li><a href="registration.html">Страница регистрации</a></li>
-        <li><a href="authorization.html">Страница авторизации</a></li>
-        <li><a href="form.html">Форма для оплаты парковки</a></li>
-        <li><a href="dealers.html">Для дилеров</a></li>
-    </ul>
+        <ul class="menu">
+            <li><a href="mainpage.html">Главная</a></li>
+            <li><a href="objects.html">Объекты</a></li>
+            <li><a href="info.html">Информация</a></li>
+            <li><a href="registration.html">Страница регистрации</a></li>
+            <li><a href="authorization.html">Страница авторизации</a></li>
+            <li><a href="form.html">Форма для оплаты парковки</a></li>
+            <li><a href="dealers.html">Для дилеров</a></li>
+            <li><a href="adv.html">Реклама</a> </li>
+        </ul>
 
         <form action="PHPServer"
                   method="post"
                   enctype="multipart/form-data">
             <fieldset>
-                <h1 align="center"><legend>Разовая оплата парковки:</legend></h1>
+                <h1 align="center">Разовая оплата парковки:</h1>
                 <fieldset>
-                    <h2><legend>Данные клиента для разовой оплаты парковки</legend></h2>
+                    <h2>Данные клиента для разовой оплаты парковки</h2>
                     <div>
                     <label for="client_name">Введите своё имя:</label>
                     <br>
@@ -77,9 +78,9 @@
                 </fieldset>
 
                 <fieldset>
-                    <h2><p>Выбор набора услуг</p></h2>
+                    <h2>Выбор набора услуг</h2>
                     <div>
-                        <h3><legend>Выберите парковку и укажите срок пребывания на ней</legend></h3>
+                        <h3>Выберите парковку и укажите срок пребывания на ней</h3>
                         <label><input type="radio" name="parking">Парковка у СК "Юбилейный"</label>
                         <label><input type="radio" name="parking" checked>Парковка у ЖК "Лофт на Среднем"</label>
                         <label><input type="radio" name="parking"
@@ -125,7 +126,7 @@
                     </div>
                     <br>
                     <div>
-                        <h3><legend>Выберите предподчительный способ оплаты</legend></h3>
+                        <h3>Выберите предподчительный способ оплаты</h3>
                         <label><input type="radio" name="payment" checked>Оплата картой онлайн</label>
                         <label><input type="radio" name="payment" disabled>
                             Оплата картой на парковке <em>(в разработке)</em></label>
@@ -211,7 +212,7 @@
                 </fieldset>
                 <fieldset>
                     <div>
-                        <h3><legend>Выберите дополнительные услуги:</legend></h3>
+                        <h3>Выберите дополнительные услуги:</h3>
                         <label><input type="checkbox" checked>Дополнительные услуги не требуются</label>
                         <br>
                         <label><input type="checkbox">Мойка машины (+150 руб.)</label>
@@ -227,7 +228,7 @@
                 </fieldset>
                 <fieldset>
                     <div>
-                        <h2><legend>Внимание! Еще раз внимательно проверьте внесенные данные!</legend></h2>
+                        <h2>Внимание! Еще раз внимательно проверьте внесенные данные!</h2>
                         <label for="submit">Если данные верны, нажмите сюда, чтобы оплатить:</label>
                         <br>
                         <input type="submit"
@@ -239,7 +240,7 @@
 
             <fieldset>
                 <div>
-                    <h2><legend>Информация для владельцев абонементных карт:</legend></h2>
+                    <h2>Информация для владельцев абонементных карт:</h2>
                     <strong>Если у Вас уже имеется абонементная карта - перейдите на вкладку <a href="authorization.html">
                         "Страница авторизации"</a>.</strong>
                     <br>
@@ -249,7 +250,7 @@
             </fieldset>
             <fieldset>
                 <div>
-                    <h1><legend>Оцените сайт и оставьте комментарий</legend></h1>
+                    <h1>Оцените сайт и оставьте комментарий</h1>
                     <label><input type="checkbox">Отлично!</label>
                     <br>
                     <label><input type="checkbox">Хорошо</label>
