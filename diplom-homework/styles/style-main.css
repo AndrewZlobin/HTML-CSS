@@ -27,9 +27,10 @@ li a {
 }
 
 body {
-    background-image: url(../images/bg1.png);
+    background-image: url(../images/bg.png);
     background-size: 300px;
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: center center;
+    color: white;
 }
