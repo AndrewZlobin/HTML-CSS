@@ -1,6 +1,7 @@
 .container {
     max-width: 960px;
     margin: 0 auto;
+    text-align: center;
 }
 
 div {
@@ -16,4 +17,19 @@ div {
     top: 8px;
     left: 16px;
     color: orangered;
+}
+
+.test {
+    border: black solid 1px;
+    font-size: 30px;
+    margin: 5px 5px;
+    background: darkorange;
+
+}
+.test1 {
+    border: black solid 1px;
+    font-size: 30px;
+    margin: 5px 5px;
+    background: darkorange;
+    height: 130px;
 }
