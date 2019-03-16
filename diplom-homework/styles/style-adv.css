@@ -1,0 +1,18 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+}
+.lefttop {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
