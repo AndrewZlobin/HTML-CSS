@@ -4,9 +4,7 @@
     <list default="true" id="065c7bad-715e-47b2-b1f8-006d62d3e0d9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/diplom-homework/adv.html" beforeDir="false" afterPath="$PROJECT_DIR$/diplom-homework/adv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diplom-homework/styles/grid-new.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diplom-homework/styles/style-adv.css" beforeDir="false" afterPath="$PROJECT_DIR$/diplom-homework/styles/style-adv.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diplom-homework/styles/style-main.css" beforeDir="false" afterPath="$PROJECT_DIR$/diplom-homework/styles/style-main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diplom-homework/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/diplom-homework/info.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,75 +13,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/diplom-homework/adv.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="74" column="14" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/diplom-homework/styles/style-adv.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/diplom-homework/styles/grid.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1375" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ifmo-web-developer/lesson3/box-model.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ifmo-web-developer/lesson3/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/diplom-homework/styles/style-main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ifmo-web-developer/lesson3/css/style.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ifmo-web-developer/lesson3/css/style2.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Lessons/!_HTML/16032019/pseudo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Lessons/!_HTML/16032019/style/pseudo.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+            <state relative-caret-position="274">
+              <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -131,7 +66,6 @@
         <option value="$PROJECT_DIR$/diplom-homework/mainpage.html" />
         <option value="$PROJECT_DIR$/diplom-homework/objects.html" />
         <option value="$PROJECT_DIR$/diplom-homework/registration.html" />
-        <option value="$PROJECT_DIR$/diplom-homework/info.html" />
         <option value="$PROJECT_DIR$/diplom-homework/authorization.html" />
         <option value="$PROJECT_DIR$/diplom-homework/form.html" />
         <option value="$PROJECT_DIR$/diplom-homework/dealers.html" />
@@ -145,11 +79,13 @@
         <option value="$PROJECT_DIR$/../Lessons/!_HTML/16032019/16032019_1.html" />
         <option value="$PROJECT_DIR$/../Lessons/!_HTML/16032019/style/flex_hw.css" />
         <option value="$PROJECT_DIR$/../Lessons/!_HTML/16032019/16032019_hw.html" />
-        <option value="$PROJECT_DIR$/diplom-homework/adv.html" />
         <option value="$PROJECT_DIR$/diplom-homework/styles/style-adv.css" />
         <option value="$PROJECT_DIR$/diplom-homework/styles/style-main.css" />
-        <option value="$PROJECT_DIR$/../Lessons/!_HTML/16032019/style/pseudo.css" />
         <option value="$PROJECT_DIR$/../Lessons/!_HTML/16032019/pseudo.html" />
+        <option value="$PROJECT_DIR$/../Lessons/!_HTML/16032019/style/pseudo.css" />
+        <option value="$PROJECT_DIR$/diplom-homework/info.html" />
+        <option value="$PROJECT_DIR$/diplom-homework/styles/style-info.css" />
+        <option value="$PROJECT_DIR$/diplom-homework/adv.html" />
       </list>
     </option>
   </component>
@@ -157,8 +93,7 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -168,6 +103,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,60 +116,16 @@
               <item name="HTML-homework" type="462c0819:PsiDirectoryNode" />
               <item name="diplom-homework" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="HTML-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTML-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="diplom-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTML-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ifmo-web-developer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTML-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ifmo-web-developer" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTML-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ifmo-web-developer" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTML-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lessons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTML-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lessons" type="462c0819:PsiDirectoryNode" />
-              <item name="!_HTML" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTML-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lessons" type="462c0819:PsiDirectoryNode" />
-              <item name="!_HTML" type="462c0819:PsiDirectoryNode" />
-              <item name="16032019" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTML-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lessons" type="462c0819:PsiDirectoryNode" />
-              <item name="!_HTML" type="462c0819:PsiDirectoryNode" />
-              <item name="16032019" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lessons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -272,7 +164,8 @@
       <option name="presentableId" value="Default" />
       <updated>1552499426839</updated>
       <workItem from="1552499439118" duration="33221000" />
-      <workItem from="1552712279419" duration="18584000" />
+      <workItem from="1552712279419" duration="21784000" />
+      <workItem from="1553267678752" duration="36000" />
     </task>
     <task id="LOCAL-00001" summary="Now there are 2 folder: &quot;backup&quot; and &quot;homework (or diplom)&quot;">
       <created>1552499547400</created>
@@ -351,17 +244,24 @@
       <option name="project" value="LOCAL" />
       <updated>1552718812740</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Made homework from 14.03.2019">
+      <created>1552760970123</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1552760970123</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51805000" />
+    <option name="totallyTimeSpent" value="55041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12481089" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27760968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -397,7 +297,8 @@
     <MESSAGE value="Making changes my teacher left to be resolved" />
     <MESSAGE value="Homework is done, but with something like bootstrap" />
     <MESSAGE value="Changed background + changed font color" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed background + changed font color" />
+    <MESSAGE value="Made homework from 14.03.2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made homework from 14.03.2019" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/homework(diplom)/style-main.css" />
@@ -466,13 +367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diplom-homework/info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Lessons/!_HTML/14032019/CSS/grid.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -506,20 +400,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diplom-homework/styles/grid-new.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diplom-homework/styles/grid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/diplom-homework/styles/grid-new.css" />
     <entry file="file://$PROJECT_DIR$/../Lessons/!_HTML/14032019/grid.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -542,11 +423,6 @@
         <state relative-caret-position="493">
           <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diplom-homework/styles/grid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Lessons/!_HTML/16032019/16032019.html">
@@ -577,24 +453,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ifmo-web-developer/lesson3/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ifmo-web-developer/lesson3/css/style2.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ifmo-web-developer/lesson3/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ifmo-web-developer/lesson3/box-model.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/diplom-homework/styles/style-adv.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diplom-homework/styles/grid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ifmo-web-developer/lesson3/box-model.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diplom-homework/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diplom-homework/styles/style-info.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ifmo-web-developer/lesson3/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/diplom-homework/styles/style-main.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -603,24 +488,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diplom-homework/adv.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="74" column="14" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../ifmo-web-developer/lesson3/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ifmo-web-developer/lesson3/css/style2.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../Lessons/!_HTML/16032019/pseudo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        <state relative-caret-position="153">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Lessons/!_HTML/16032019/style/pseudo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        <state relative-caret-position="612">
+          <caret line="36" selection-start-line="36" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diplom-homework/adv.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
         </state>
       </provider>
     </entry>
