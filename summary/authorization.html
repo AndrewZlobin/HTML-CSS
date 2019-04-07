@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+    <head>
+        <title>AuthorizationForm</title>
+        <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="favicon.ico">
+        <link rel="stylesheet"
+              href="styles/style-main.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Форма для авторизации">
+    </head>
+    <body>
+    <ul class="menu">
+        <li><a href="mainpage.html">Главная</a></li>
+        <li><a href="objects.html">Объекты</a></li>
+        <li><a href="info.html">Информация</a></li>
+        <li><a href="registration.html">Страница регистрации</a></li>
+        <li><a href="authorization.html">Страница авторизации</a></li>
+        <li><a href="form.html">Форма для оплаты парковки</a></li>
+        <li><a href="dealers.html">Для дилеров</a></li>
+        <li><a href="adv.html">Реклама</a> </li>
+    </ul>
+
+        <h1 align="center">Форма для авторизации на сайте</h1>
+        <br>
+        <form action="PHPServer"
+              method="post"
+              enctype="multipart/form-data">
+            <fieldset>
+                <legend align="center"><strong>Пожалуйста, авторизируйтесь</strong></legend>
+                <div>
+                    <label for="auth_mail">Ваша почта:</label>
+                    <br>
+                    <input id="auth_mail"
+                           type="email"
+                           placeholder="введите сюда адрес своей электронной почты"
+                           size="50"
+                           required>
+                </div>
+                <br>
+                <div>
+                    <label for="auth_pwd">Пароль:</label>
+                    <br>
+                    <input id="auth_pwd"
+                           type="password"
+                           placeholder="введите сюда пароль"
+                           size="50"
+                           required>
+                </div>
+                <br>
+                <div>
+                    <label for="auth_reset"><strong>Нажмите, чтобы сбросить, если введенные данные неверны:</strong></label>
+                    <br>
+                    <input id="auth_reset"
+                           type="reset">
+                </div>
+                <br>
+                <div>
+                <label for="auth_submit"><strong>Авторизация и вход на сайт:</strong></label>
+                <br>
+                <input id="auth_submit"
+                       type="submit">
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
