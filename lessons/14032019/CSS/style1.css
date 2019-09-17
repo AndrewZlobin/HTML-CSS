@@ -1,0 +1,76 @@
+@import url("style2.css");
+
+/* текст
+комментария */
+
+/*css селекторы указывают браузеру, какой элемент нужно выбрать*/
+
+/*css селектор {
+    свойство1: значение;
+    свойство2: значение;
+    свойство3: значение;
+}*/
+
+/*свойства селекторов тегов (имя тэга)*/
+
+h3 {
+    color: green !important; /*important используется для настройки приоритета стиля*/
+}
+
+h3 {
+    color: darkred;
+}
+
+/*селектор класса*/
+.center {
+    text-align: center;
+    color: orange;
+}
+
+/*селектор идентификатора элемента*/
+#container {
+    height: 100px;
+    width: 100px;
+    background: yellow;
+}
+/*дочерний селектор*/
+p > em {
+    font-size: 30pt;
+}
+
+/*селектор потомков*/
+p em {
+    color: orange;
+}
+
+p .red a{
+    /*сначала идет тег р, потов внутри него тег с классом red, а затем ссылка*/
+    text-decoration: none /*отмена подчеркивание у ссылки*/
+}
+
+p.red a
+{/*стили будут применятся ко всем ссылкам, которые лежат в теге р с классом red*/}
+/*<p class="red"><a>Ссылка</a></p>*/
+
+.red a {}
+
+nav li {
+    list-style-type: none;
+}
+
+body {
+    background: grey;
+}
+
+#elemID {
+    background: yellow;
+}
+
+.elem-class {
+    background: green;
+}
+
+p {
+    background: blue;
+}
+

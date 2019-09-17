@@ -1,0 +1,203 @@
+.shadow {
+    height: 300px;
+    width: 300px;
+    /*тень блока:*/
+    /*горизонтально (1-ое значение): + или -*!*/
+    /*вертикально (2-ое значение): + или -**!*/
+    /*размытие (3-ье значение): только +*/
+    /*растяжение (4)*/
+    box-shadow: -5px 15px 5px 2px darkgoldenrod;
+}
+
+.transition {
+    /*прозрачность фона для текста через rgba*/
+    background: rgba(0, 200, 0, .5);
+    /*прозрачность (от 0 до 1)*/
+    opacity: 0.9;
+    /*свойства переходов*/
+    transition-property: opacity;
+    /*время перехода*/
+    transition-duration: 1s;
+    /*задержка перехода*/
+    transition-delay: 2s;
+    /*как за transition-delay наступает прозрачность (в данном случае)*/
+    transition-timing-function: ease-out;
+
+    /*универсальный transition*/
+    /*transition: transition-property,*/
+                /*transition-duration,*/
+                /*transition-timing-function,*/
+                /*transition-delay;*/
+    transition: opacity 1s ease 1s;
+
+}
+
+.transition:hover {
+    opacity: 0.1;
+}
+
+.transition-2 {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    background: #0c5460;
+    text-align: center;
+    transition-property: width, height;
+    transition-duration: 2s;
+}
+
+.transition-2:hover {
+    height: 300px;
+    width: 300px;
+
+    transition-property: width, height;
+    transition-duration: 2s;
+
+}
+
+.translate {
+    height: 200px;
+    width: 200px;
+    background: #002752;
+    transition: transform 2s;
+}
+
+.translate:hover {
+    /*сдвиг по x и y*/
+    transform: translate(20px, 30px);
+    /*transform: translateX(20px);*/
+    /*transform: translateY(40px);*/
+}
+
+.scale {
+    height: 200px;
+    width: 200px;
+    background: #1b1e21;
+}
+
+.scale:hover {
+    /*масштабирование (значения от 0 до 1 уменьшают элемент)*/
+    transform: scale(.1, .8);
+    transition: transform 2s;
+}
+
+.rotate {
+    height: 200px;
+    width: 200px;
+    background: #533f03;
+}
+
+.rotate:hover {
+    /*+ - по часовой стрелке*/
+    transform: rotateY(360deg);
+    transition: transform 5s;
+}
+
+.skew {
+    height: 200px;
+    width: 200px;
+    background: #b8daff;
+}
+
+.skew:hover {
+    transform: skew(20deg, 30deg);
+    /*transform: skewX(20deg);*/
+    /*transform: skewY(20deg);*/
+    transition: transform 5s;
+    /*смещает ось трансформации по осям x и y*/
+    transform-origin: 20px 10px;
+}
+
+.animation {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    padding: 10px 30px;
+    background: red;
+
+    /*задать имя для анимации*/
+    animation-name: TEST;
+
+    /*задать продолжительность анимации*/
+    animation-duration: 15s;
+
+    /*временная функция анимации необязательна*/
+    animation-timing-function: ease-in-out;
+
+    /*задержка анимации после загрузки страницы*/
+    animation-delay: 3s;
+
+    /*количество повторений анимации*/
+    /*либо указывается конкретное значение цифрой, либо infinite*/
+    animation-iteration-count: infinite;
+
+    /*направление повтора анимации*/
+    /*alternate, reverse, alternate-reverse*/
+    animation-direction: alternate;
+}
+
+/*установка кадров анимации*/
+
+@keyframes TEST {
+    from, to {
+        top: 0;
+        left: 150px;
+    }
+
+    25%, 75% {
+        top: 100px;
+
+    }
+
+    75% {
+        background: yellow;
+    }
+
+    90% {
+        background: blue;
+    }
+
+    100% {
+        top: 50%;
+    }
+}
+
+ul li {
+    list-style-type: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    background: plum;
+}
+
+.color-1 {
+    animation: color1 2s;
+
+}
+
+.color-2 {
+    animation: color2 2s ease 2s;
+}
+
+.color-3 {
+    animation: color3 2s ease 4s infinite;
+}
+
+@keyframes color1 {
+    100% {
+        background: red
+    }
+}
+
+@keyframes color2 {
+    100% {
+        background: yellow
+    }
+}
+
+@keyframes color3 {
+    100% {
+        background: green
+    }
+}

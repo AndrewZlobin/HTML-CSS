@@ -1,0 +1,35 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*em = 12pt = 16px*/
+
+/*em = value/parentFontSize*/
+
+/*1vh - высота*/
+/*1vw - ширина*/
+
+p {
+    overflow: hidden;
+    overflow: scroll;
+
+    word-break: break-all;
+}
+
+.hide {
+    display: none;
+}
+
+
+@media условие {
+    /*css стили*/
+}
+
+/*типы носителей в условии:*/
+
+/*not, only*/
+@media screen and (max-width: 480px){
+
+}

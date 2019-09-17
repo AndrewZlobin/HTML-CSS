@@ -1,0 +1,140 @@
+/*задание margin*/
+.div {
+/*    margin-top: 30px;
+    margin-right: 15px;
+    margin-bottom: 40px;
+    margin-left: 20px;*/
+
+    margin: 12px;
+
+    margin: 15px 30px; /*top+bottom=15, left+right=30*/
+
+    margin: 15px 30px 10px; /*top=15, left+right=30, bottom=10*/
+
+    margin: 30px 40px 15px 20px; /*top=30, right=40, bottom=150, left=20*/
+}
+
+/*задание padding*/
+.div {
+    /*    padding-top: 30px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+    padding-left: 20px;*/
+
+    padding: 12px;
+
+    padding: 15px 30px; /*top+bottom=15, left+right=30*/
+
+    padding: 15px 30px 10px; /*top=15, left+right=30, bottom=10*/
+
+    padding: 30px 40px 15px 20px; /*top=30, right=40, bottom=150, left=20*/
+}
+
+/*задание border*/
+div {
+    /*border: 1px solid brown;*/
+    /*border-radius: 20px;*/
+    border-top: 2px solid blue;
+    border-right: 3px solid yellow;
+    border-bottom: 2px solid blue;
+    border-left: 3px solid green;
+
+    /*border-top-left-radius: 5px;*/
+    /*border-top-right-radius: 10px;*/
+    /*border-bottom-left-radius: 15px;*/
+    /*border-bottom-right-radius: 20px;*/
+}
+
+.p {
+    height: 100px;
+    width: 200px;
+    display: inline;
+    /*inline - сделать блочный элемент строчным*/
+}
+
+.span {
+    height: 100px;
+    width: 200px;
+    display: block;
+    /*block - сделать строчный элемент блочным*/
+}
+
+nav li {
+    display: inline-block;
+    /*inline-block - блочно-строчный формат*/
+}
+
+body {
+    /*background-image: url("");*/
+    background-repeat: repeat;
+    background-attachment: fixed;
+    /*background-position: ;*/
+    /*background-size: ;*/
+}
+
+.visibility {
+    /*данное свойство отображает элемент как видимый*/
+    visibility: visible;
+    /*делает элемент невидимым, место под элемент остается*/
+    visibility: hidden;
+    /*полность скрыть элемент, приэтом он не занимает места*/
+    /*display: none;*/
+    /*для ячеек таблицы - как display:none; для остальных - как visibility: hidden*/
+    visibility: collapse;
+}
+.static,
+.fixed,
+.absolute,
+.relative,
+.float {
+    border: 1px solid black;
+    background: green;
+}
+
+
+.static {
+    /*static - элемент будет отображаться так, как он идет в HTML, используется для отмены позиционирования.*/
+    position: static;
+}
+
+.fixed {
+    position: fixed;
+    /*отступ от верхней границы браузера*/
+    top: 5px;
+    /*отступ от правой границы браузера*/
+    right: 10px;
+    /*отступ от левой границы браузера*/
+    left: 25px;
+    /*от нижней границы браузера*/
+    /*bottom: 40px;*/
+    /*vertical-align: sub;*/
+
+}
+
+.absolute {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    left: 15px;
+}
+
+.relative {
+    position: relative;
+    top: 100px;
+    left: 55px;
+    right: 55px;
+}
+
+.float {
+    float: left; /*left,right,none*/
+    width: 20%;
+}
+
+.clear {
+    /*отменяет обтекание элемента,
+    который расположен после плавающих float элементов*/
+    clear: both; /*left,right,*/
+}
+
+
+

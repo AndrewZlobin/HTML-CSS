@@ -1,0 +1,75 @@
+.hover {
+    height: 200px;
+    width: 300px;
+    background: green;
+}
+
+.hover:hover {
+    background: orange;
+}
+
+a:hover {
+    background: yellow;
+}
+
+
+/*посещенная ссылка*/
+a:visited {
+    background: black;
+}
+
+/*не посещенная ссылка*/
+
+a:link {
+    background: red;
+}
+
+
+/*элемент, активированный пользователем с помощь клика*/
+a:active {
+    background: aquamarine;
+}
+
+.hover:active {
+    background: black;
+}
+
+.test {
+    display: none;
+}
+
+.test:hover {
+    display: inline;
+}
+
+
+/*для стилизации элементов, к которым перешли с помощью ссылки*/
+.hover:target {
+    display: none;
+}
+
+.form {
+    display: none;
+}
+
+.form:target {
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    right: 200px;
+    bottom: 200px;
+    background: blue;
+}
+
+/*селекторы атрибутов*/
+/*[атрибут] {ко всем тегам с указанным атрибутом}*/
+/*правильно: селектор [атрибут ="значение"] {}*/
+
+input[type="text"] {
+    color: darkmagenta
+}
+
+input[type="email"] {
+    color: orangered;
+}

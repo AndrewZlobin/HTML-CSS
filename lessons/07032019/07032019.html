@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Теги форм</title>
+    </head>
+    <body>
+        <!--теги форм применяются для сбора информации от пользователей-->
+        <form action="#"
+              method="post"
+              enctype="multipart/form-data">
+            <fieldset> <!--рамка в браузере, группировка элементов-->
+                <legend>Текстовые поля</legend> <!--название для группы полей-->
+                <p>
+                    <label for="text">Введите текст</label>
+                    <input type="text"
+                           value="something"
+                           id="text" pattern="[A-Za-z]"> <!--поле для ввода текстовой информацииЖ;
+                                                 required отвечает за то,что пользователь ДОЛЖЕН заполнить данное поле-->
+                    <label for="text">Введите текст</label>
+                    <input type="text"
+                           disabled
+                           value="something">
+                    <label for="text">Введите текст</label>
+                    <input type="text"
+                           readonly
+                           value="something">
+                </p>
+                <p>
+                    <input type="email"
+                           required
+                           autofocus> <!--поле для ввода почты-->
+                </p>
+                <p>
+                    <input type="password"
+                           placeholder="Введите пароль"
+                           minlength="2" maxlength="4"> <!--поле для ввода пароля или любой другой скрытой информации-->
+                </p>
+                <p>
+                    <input type="search"> <!--поисковое поле, имеется возможность удалить поисковый запрос-->
+                </p>
+                <p>
+                    <input type="submit" value="Отправить"> <!--кнопка для отправки формы,
+                                                                value отображает информацию на кнопке-->
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Загрузка файлов</legend>
+                <input type="file"
+                       multiple
+                       accept="image/*"
+                       >
+            </fieldset>
+            <fieldset>
+                <legend>Поля для ввода чисел</legend>
+                <p>
+                    <label for="number">Ввод чисел</label>
+                    <input id="number"
+                           type="number"
+                           min="3"
+                           max="100"
+                           placeholder="от 3 до 100"
+                           value="5"
+                           step="2">
+                </p>
+                <p>
+                    <label for="range">Ползунок</label>
+                    <input id="range"
+                           type="range"
+                           min="2"
+                           max="30"
+                           value="6">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Чекбоксы+радиокнопки</legend>
+                <p>
+                    <label><input type="checkbox" checked>Чекбокс №1 (флажок)</label> <!--вариант использование label для чекбоксов и радиокнопок-->
+                    <label><input type="checkbox">Чекбокс №2 (флажок)</label>
+                </p>
+                <p>
+                    <label><input type="radio">Радиокнопка 1</label>
+                    <label><input type="radio" checked>Радиокнопка 2</label>
+                </p>
+                <fieldset>
+                    <label>Группы радиокнопок</label>
+                    <p> <!--name - для группировки радиокнопок-->
+                        <label><input type="radio" name="answer">Да</label>
+                        <label><input type="radio" name="answer"checked>Нет</label>
+                        <label><input type="radio" name="answer">Может быть</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Группировка чекбоксов (флажков)</legend>
+                    <p> <!--Группировка чекбоксов по типу массива-->
+                        <label><input type="checkbox" name="answer2[]">Чекбокс №1 (флажок)</label>
+                        <label><input type="checkbox" name="answer2[]">Чекбокс №2 (флажок)</label>
+                        <label><input type="checkbox" name="answer2[]" checked>Чекбокс №3 (флажок)</label>
+                    </p>
+                </fieldset>
+            </fieldset>
+
+            <fieldset>
+                <legend>Выбор дат и времени</legend>
+                <p>
+                    <label for="time">Выбор времени</label>
+                    <input id="time"
+                           type="time"
+                           min="14:11"
+                           max="20:00"> <!--24 часовой формат-->
+                </p>
+                <p>
+                    <label for="data">Выбор даты</label>
+                    <input id="data"
+                           type="date"
+                           min="2012-12-12"
+                           max="2018-12-12">
+                </p>
+                <p>
+                    <label for="datetime">Выбор даты и времени</label>
+                    <input id="datetime"
+                           type="datetime-local">
+                </p>
+                <p>
+                    <label for="month">Выбор месяца</label>
+                    <input id="month"
+                           type="month">
+                </p>
+                <p>
+                    <label for="week">Выбор недели</label>
+                    <input id="week"
+                           type="week">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Взятие цвета / Скртыое поле</legend>
+                <p>
+                    <input type="color">
+                </p>
+                <p>
+                    <label for="hidden">Скрытое поле где-то здесь</label>
+                    <input id="hidden"
+                           type="hidden"
+                           value="info">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Кнопки (тег Input)</legend>
+                <p>
+                    <input type="submit"
+                           value="Отправить что-то на сервер">
+                </p>
+                <p>
+                    <input type="reset"
+                           value="Очистить поля формы">
+                </p>
+                <p>
+                    <input type="button" value="Просто кнопка">
+                </p>
+                <p>
+                    <!--приравнивается к submit-->
+                    <input type="image"
+                           value="Кнопка со вставкой картинки"
+                           src="C:\Users\andre\Desktop\Lessons\!_HTML\07032019\R.png"
+                           alt="Альтернативный текст, если картинка не подгрузится">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Кнопки (тег Button)</legend>
+                <p>
+                    <button name="submit_btn"
+                            value="some_value"
+                            type="submit">Отправить данные</button>
+                    <button type="reset">Для очистки полей форм</button>
+                    <button type="button">Just button</button>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Многострочное текстовое поле</legend>
+                <p>
+                    <textarea cols="22" rows="3"
+                              autofocus
+                              required
+                              minlength="10"
+                              maxlength="300"
+                              placeholder="Для тега <textarea> — в качестве значения указывается действительное неотрицательное целое число больше нуля"
+                              wrap="hard"></textarea> <!--cols - количество колонок, rows - рядов, soft - как одна строка hard - как есть-->
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Раскрывающие списки</legend>
+                <p>
+                    <select name="select" size="5">
+                        <option value="1" label="Элемент 1">Элемент списка 1</option>
+                        <option value="2">Элемент списка 2</option>
+                        <option value="3"
+                                selected disabled>Верный ответ!</option>
+                        <option value="4">Элемент списка 4</option>
+                        <option value="5">Элемент списка 5</option>
+                        <option value="6">Элемент списка 6</option>
+                        <option value="7">Элемент списка 7</option>
+                    </select>
+
+                    <select size="15">
+                        <optgroup label="Заголовок группы элементов">
+                            <option>Элемент списка 21</option>
+                            <option disabled>Элемент списка 22</option>
+                            <option>Элемент списка 23</option>
+                            <option>Элемент списка 24</option>
+                        </optgroup>
+
+                        <optgroup disabled label="Еще один заголовок элементов">
+                            <option>Элемент списка 104</option>
+                            <option>Элемент списка 105</option>
+                            <option>Элемент списка 106</option>
+                            <option>Элемент списка 107</option>
+                        </optgroup>
+                    </select>
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>

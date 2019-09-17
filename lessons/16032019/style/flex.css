@@ -1,0 +1,68 @@
+p {
+    background: blue;
+}
+
+div {
+    background: gray;
+    margin-bottom: 50px;
+}
+
+.flex {
+    display: flex;
+    /*горизонтальное выравнивание*/
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.flex-1 {
+    display: flex;
+    justify-content: space-between;
+    /*выравнивание по горизонтали*/
+    align-items: stretch; /*применяется по умолчанию*/
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: baseline; /*редко используется*/
+
+}
+
+.flex-2 {
+    display: flex;
+    /*justify-content: space-between;*/
+    /*направление оси*/
+    flex-direction: row; /*значение по умолчанию*/
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+
+.flex-3 {
+    display: flex;
+    width: 250px;
+    flex-wrap: nowrap; /*по умолчанию*/
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+}
+
+.flex-4 {
+    display: flex;
+    width: 250px;
+
+    /*многострочное выравнивание*/
+
+    align-content: stretch; /*по умолчанию*/
+    align-content: flex-start; /*расчет исходя из высоты содержимого*/
+    align-content: flex-end;
+    align-content: center;
+    align-content: space-around;
+    align-content: space-between;
+    justify-content: space-between;
+
+    /*обязательное свойство контейнера-родителя*/
+    flex-direction: row; /*обязательно прописать независимо от настроек по умолчанию!*/
+    flex-wrap: wrap; /*обязательное значение wrap!*/
+    height: 500px; /*обязательно задавать высоту у родителя-контейнера*/
+}
+
